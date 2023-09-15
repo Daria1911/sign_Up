@@ -1,0 +1,43 @@
+.textfield-web-month {
+  align-items: center;
+  background-color: var(--surface2nd-surface);
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  height: 42px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 1px 12px;
+  position: relative;
+}
+
+.textfield-web-month .MM {
+  font-family: var(--web-body-bold-font-family);
+  font-size: var(--web-body-bold-font-size);
+  font-style: var(--web-body-bold-font-style);
+  font-weight: var(--web-body-bold-font-weight);
+  letter-spacing: var(--web-body-bold-letter-spacing);
+  line-height: var(--web-body-bold-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.textfield-web-month.month {
+  width: 63px;
+}
+
+.textfield-web-month.day {
+  width: 63px;
+}
+
+.textfield-web-month.year {
+  width: 75px;
+}
+
+.textfield-web-month .unfilled-default {
+  color: var(--disabled);
+}
+
+.textfield-web-month .unfilled-filled {
+  color: var(--high-emphasis);
+}

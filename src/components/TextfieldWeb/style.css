@@ -1,0 +1,30 @@
+.textfield-web {
+  align-items: center;
+  display: inline-flex;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.textfield-web .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 109px;
+  justify-content: center;
+  padding: 4px 8px;
+  position: relative;
+  width: 99px;
+}
+
+.textfield-web .text-wrapper {
+  color: var(--high-emphasis);
+  font-family: var(--web-subheadline-font-family);
+  font-size: var(--web-subheadline-font-size);
+  font-style: var(--web-subheadline-font-style);
+  font-weight: var(--web-subheadline-font-weight);
+  letter-spacing: var(--web-subheadline-letter-spacing);
+  line-height: var(--web-subheadline-line-height);
+  position: relative;
+  width: fit-content;
+}

@@ -1,0 +1,38 @@
+.nav-btn {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.nav-btn .get-reeltalk {
+  font-family: var(--web-body-bold-font-family);
+  font-size: var(--web-body-bold-font-size);
+  font-style: var(--web-body-bold-font-style);
+  font-weight: var(--web-body-bold-font-weight);
+  letter-spacing: var(--web-body-bold-letter-spacing);
+  line-height: var(--web-body-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.nav-btn.default {
+  background-color: var(--primary-color);
+}
+
+.nav-btn.variant-2 {
+  border: 1px solid;
+  border-color: var(--gray);
+}
+
+.nav-btn.default .get-reeltalk {
+  color: var(--secondary-color);
+}
+
+.nav-btn.variant-2 .get-reeltalk {
+  color: var(--pure-white);
+}
