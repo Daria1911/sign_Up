@@ -1,0 +1,29 @@
+.profile-web {
+  background-image: url(https://c.animaapp.com/ReQL7LGI/img/ellipse-12.svg);
+  background-size: 100% 100%;
+  height: 112px;
+  position: relative;
+  width: 112px;
+}
+
+.profile-web .instance-1 {
+  height: 24px !important;
+  left: 82px !important;
+  position: absolute !important;
+  top: 88px !important;
+  width: 24px !important;
+}
+
+.profile-web .text-wrapper {
+  color: var(--high-emphasis);
+  font-family: var(--web-h1-font-family);
+  font-size: var(--web-h1-font-size);
+  font-style: var(--web-h1-font-style);
+  font-weight: var(--web-h1-font-weight);
+  left: 42px;
+  letter-spacing: var(--web-h1-letter-spacing);
+  line-height: var(--web-h1-line-height);
+  position: absolute;
+  text-align: center;
+  top: 27px;
+}

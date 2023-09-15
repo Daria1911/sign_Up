@@ -1,0 +1,71 @@
+.button-web {
+  all: unset;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+}
+
+.button-web .button {
+  all: unset;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 241px;
+}
+
+.button-web .next {
+  font-family: var(--web-headline-font-family);
+  font-size: var(--web-headline-font-size);
+  font-style: var(--web-headline-font-style);
+  font-weight: var(--web-headline-font-weight);
+  letter-spacing: var(--web-headline-letter-spacing);
+  line-height: var(--web-headline-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.button-web .disabled {
+  background-color: var(--gray);
+}
+
+.button-web .social {
+  border: 2px solid;
+  border-color: var(--gray);
+}
+
+.button-web .primary {
+  background-color: var(--primary-color);
+}
+
+.button-web .secondary {
+  background-color: var(--pure-white);
+}
+
+.button-web .button.disabled .next {
+  color: var(--disabled);
+  margin-top: -1.5px;
+}
+
+.button-web .button.social .next {
+  color: var(--pure-white);
+  margin-top: -1.5px;
+}
+
+.button-web .button.primary .next {
+  color: var(--secondary-color);
+  margin-top: -0.5px;
+}
+
+.button-web .button.secondary .next {
+  color: var(--secondary-color);
+  margin-top: -0.5px;
+}
+

@@ -1,0 +1,85 @@
+.progress-bar {
+  height: 32px;
+  width: 772px;
+}
+
+.progress-bar .overlap-group {
+  height: 32px;
+  position: relative;
+}
+
+.progress-bar .line-stroke {
+  height: 4px;
+  left: 30px;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+
+.progress-bar .img {
+  height: 4px;
+  left: 178px;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+
+.progress-bar .line-stroke-2 {
+  height: 4px;
+  left: 326px;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+
+.progress-bar .line-stroke-3 {
+  height: 4px;
+  left: 474px;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+
+.progress-bar .line-stroke-4 {
+  height: 4px;
+  left: 622px;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+
+.progress-bar .progress-circle-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.progress-bar .instance-node {
+  left: 148px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.progress-bar .progress-circle-2 {
+  left: 296px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.progress-bar .progress-circle-3 {
+  left: 444px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.progress-bar .progress-circle-4 {
+  left: 592px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.progress-bar .progress-circle-5 {
+  left: 740px !important;
+  position: absolute !important;
+  top: 0 !important;
+}

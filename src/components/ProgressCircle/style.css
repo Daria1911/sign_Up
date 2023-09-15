@@ -1,0 +1,27 @@
+.progress-circle {
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.progress-circle .ellipse {
+  background-color: var(--medium-emphasis);
+  border-radius: 9.6px;
+  height: 19px;
+  left: 6px;
+  position: relative;
+  top: 6px;
+  width: 19px;
+}
+
+.progress-circle.active {
+  background-color: #ffa723;
+}
+
+.progress-circle.not-started {
+  background-color: #6d6d6d;
+}
+
+.progress-circle.done {
+  background-color: #ffa723;
+}
