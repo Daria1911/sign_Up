@@ -122,6 +122,10 @@
   line-height: var(--web-h2-line-height);
   margin-top: -1px;
   position: relative;
+  border: none;
+  outline: none;
+  background: #222222 url("https://c.animaapp.com/Jg1s5q7K/img/vector-2.svg") no-repeat right;
+  width: 100%;
 }
 
 .display-name .vector {
@@ -153,9 +157,8 @@
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
-  flex-direction: column;
   gap: 8px;
-  margin-right: -86px;
+  width: 100%;
   position: relative;
 }
 
@@ -170,6 +173,26 @@
   line-height: var(--web-headline-line-height);
   margin-top: -1px;
   position: relative;
+  border: none;
+  outline: none;
+  background: #222222 url("https://c.animaapp.com/Jg1s5q7K/img/vector-2.svg") no-repeat right;
+  width: inherit;
+}
+
+.display-name .text-wrapper-icon {
+  align-self: stretch;
+  color: var(--high-emphasis);
+  font-family: var(--web-headline-font-family);
+  font-size: var(--web-headline-font-size);
+  font-style: var(--web-headline-font-style);
+  font-weight: var(--web-headline-font-weight);
+  letter-spacing: var(--web-headline-letter-spacing);
+  line-height: var(--web-headline-line-height);
+  margin-top: -1px;
+  position: relative;
+  border: none;
+  outline: none;
+  background: #222222;
 }
 
 .display-name .vector-2 {

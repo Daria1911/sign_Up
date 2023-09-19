@@ -8,6 +8,17 @@ import {Header} from "../../components/Header/Header";
 
 export const Frame = () => {
 
+  const [name, setName] = useState("Karl.www")
+  const [location, setLocation] = useState("Unknown Location")
+
+  const handleName = (e) => {
+    setName(e.target.value)
+  }
+
+  const handleLocation = (e) => {
+    setLocation(e.target.value)
+  }
+
   return (
       <div className="display-name">
         <div className="overlap">
@@ -26,21 +37,15 @@ export const Frame = () => {
                   <ProfileWeb className="profile-web-instance" />
                   <div className="frame-7">
                     <div className="frame-8">
-                      <div className="text-wrapper-5">karl.www</div>
-                      <img className="vector" alt="Vector" src="https://c.animaapp.com/Jg1s5q7K/img/vector-2.svg" />
+                      <input className="text-wrapper-5" value={name} onChange={handleName}></input>
                     </div>
                     <div className="frame-9">
                       <div className="frame-10">
                         <div className="div-wrapper">
-                          <div className="text-wrapper-6">📍 Unknown location</div>
+                          <div className="text-wrapper-icon">📍</div>
+                          <input className="text-wrapper-6" value={location} onChange={handleLocation}></input>
                         </div>
-                        <img
-                            className="vector-2"
-                            alt="Vector"
-                            src="https://c.animaapp.com/Jg1s5q7K/img/vector-1@2x.png"
-                        />
                       </div>
-                      <img className="vector" alt="Vector" src="https://c.animaapp.com/Jg1s5q7K/img/vector-2.svg" />
                     </div>
                   </div>
                 </div>
