@@ -1,20 +1,40 @@
-.frame {
-  align-items: center;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 64px;
-  position: relative;
+.display-name {
   background-color: #222222;
-  justify-content: center;
-  width: 100%;
   height: 100%;
+  position: relative;
+  width: 100%;
 }
 
-.frame .progress-bar-instance {
+.display-name .overlap {
+  background-color: #222222;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  display: inline-flex;
+  position: relative;
+}
+
+.display-name .frame-3 {
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  display: inline-flex;
+  text-align: center;
+  height: 85%;
+}
+
+.display-name .progress-bar-instance {
   position: relative !important;
 }
 
-.frame .div {
+.display-name .frame-4 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -23,7 +43,7 @@
   position: relative;
 }
 
-.frame .text-wrapper-2 {
+.display-name .text-wrapper-4 {
   color: var(--pure-white);
   font-family: var(--web-h2-font-family);
   font-size: var(--web-h2-font-size);
@@ -37,7 +57,7 @@
   width: 448px;
 }
 
-.frame .p {
+.display-name .p {
   color: var(--pure-white);
   font-family: var(--web-body-font-family);
   font-size: var(--web-body-font-size);
@@ -50,7 +70,7 @@
   width: 600px;
 }
 
-.frame .div-2 {
+.display-name .frame-5 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -59,7 +79,7 @@
   position: relative;
 }
 
-.frame .div-3 {
+.display-name .frame-6 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -67,11 +87,11 @@
   position: relative;
 }
 
-.frame .profile-web-instance {
-  background-image: url(https://c.animaapp.com/ReQL7LGI/img/ellipse-12-1.svg) !important;
+.display-name .profile-web-instance {
+  background-image: url(https://c.animaapp.com/Jg1s5q7K/img/ellipse-12-2.svg) !important;
 }
 
-.frame .div-4 {
+.display-name .frame-7 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -81,7 +101,7 @@
   position: relative;
 }
 
-.frame .div-5 {
+.display-name .frame-8 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -91,7 +111,7 @@
   width: 259px;
 }
 
-.frame .text-wrapper-3 {
+.display-name .text-wrapper-5 {
   color: var(--pure-white);
   flex: 1;
   font-family: var(--web-h2-font-family);
@@ -104,13 +124,13 @@
   position: relative;
 }
 
-.frame .vector {
+.display-name .vector {
   height: 12px;
   position: relative;
   width: 12px;
 }
 
-.frame .div-6 {
+.display-name .frame-9 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -120,7 +140,7 @@
   width: 259px;
 }
 
-.frame .div-7 {
+.display-name .frame-10 {
   align-items: flex-start;
   display: flex;
   flex: 1;
@@ -129,7 +149,7 @@
   position: relative;
 }
 
-.frame .div-wrapper {
+.display-name .div-wrapper {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -139,7 +159,7 @@
   position: relative;
 }
 
-.frame .text-wrapper-4 {
+.display-name .text-wrapper-6 {
   align-self: stretch;
   color: var(--high-emphasis);
   font-family: var(--web-headline-font-family);
@@ -152,7 +172,7 @@
   position: relative;
 }
 
-.frame .vector-2 {
+.display-name .vector-2 {
   height: 24px;
   margin-bottom: -42942px;
   margin-right: -50923.5px;
@@ -160,23 +180,19 @@
   width: 24px;
 }
 
-.frame .longer-text-field-instance {
+.display-name .longer-text-field-instance {
   position: relative !important;
   width: 352px !important;
 }
 
-.frame .design-component-instance-node {
+.display-name .longer-text-field-2 {
   text-align: unset !important;
 }
 
-.frame .div-8 {
+.display-name .frame-11 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 32px;
   position: relative;
-}
-
-.frame .button-web-instance {
-  flex: 0 0 auto !important;
 }

@@ -4,14 +4,20 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
 
 export const LongerTextField = ({ className, divClassName, text = "Indi" }) => {
-  return (
+    const [comment, setComment] = useState(text)
+
+    const updateComment = (e) => {
+        setComment(e.target.value)
+    }
+
+    return (
     <div className={`longer-text-field ${className}`}>
       <div className="indi-wrapper">
-        <div className={`indi ${divClassName}`}>{text}</div>
+        <textarea className={`indi ${divClassName}`} value={comment} onChange={updateComment} cols="40" rows="50"></textarea>
       </div>
     </div>
   );

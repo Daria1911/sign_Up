@@ -1,0 +1,174 @@
+.search-bar {
+  border-radius: 8px;
+  position: relative;
+}
+
+.search-bar .search-icon {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.search-bar .text-wrapper {
+  font-family: var(--web-body-font-family);
+  font-size: var(--web-body-font-size);
+  font-style: var(--web-body-font-style);
+  font-weight: var(--web-body-font-weight);
+  letter-spacing: var(--web-body-letter-spacing);
+  line-height: var(--web-body-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.search-bar .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  padding: 0px 24px;
+  position: absolute;
+  top: 15px;
+}
+
+.search-bar .div {
+  color: var(--secondary-color);
+  font-family: var(--web-body-font-family);
+  font-size: var(--web-body-font-size);
+  font-style: var(--web-body-font-style);
+  font-weight: var(--web-body-font-weight);
+  letter-spacing: var(--web-body-letter-spacing);
+  line-height: var(--web-body-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.search-bar .film-listed-item {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 56px;
+  width: 544px;
+}
+
+.search-bar .frame-2 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 2px;
+  height: 56px;
+  padding: 0px 24px;
+  position: relative;
+  width: 544px;
+}
+
+.search-bar .text-wrapper-2 {
+  color: var(--secondary-color);
+  font-family: var(--web-body-font-family);
+  font-size: var(--web-body-font-size);
+  font-style: var(--web-body-font-style);
+  font-weight: var(--web-body-font-weight);
+  letter-spacing: var(--web-body-letter-spacing);
+  line-height: var(--web-body-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.search-bar .leandro-tadashi {
+  color: var(--gray);
+  font-family: var(--web-body-font-family);
+  font-size: var(--web-body-font-size);
+  font-style: var(--web-body-font-style);
+  font-weight: var(--web-body-font-weight);
+  letter-spacing: var(--web-body-letter-spacing);
+  line-height: var(--web-body-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.search-bar .frame-wrapper {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 112px;
+  width: 544px;
+}
+
+.search-bar .film-listed-item-2 {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 168px;
+  width: 544px;
+}
+
+.search-bar .film-listed-item-3 {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 224px;
+  width: 544px;
+}
+
+.search-bar .film-listed-item-4 {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 280px;
+  width: 544px;
+}
+
+.search-bar .film-listed-item-5 {
+  background-color: var(--pure-white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 336px;
+  width: 544px;
+}
+
+.search-bar.selection-selected {
+  background-color: var(--high-emphasis);
+  height: 364px;
+  overflow: hidden;
+  width: 544px;
+}
+
+.search-bar.selection {
+  align-items: center;
+  background-color: #ffffff14;
+  display: flex;
+  gap: 10px;
+  height: 56px;
+  padding: 6px 24px;
+  width: 544px;
+}
+
+.search-bar.nav {
+  align-items: center;
+  background-color: #00000014;
+  display: flex;
+  gap: 10px;
+  padding: 6px 24px;
+  width: 351px;
+}
+
+.search-bar.selection-selected .text-wrapper {
+  color: var(--gray);
+}
+
+.search-bar.selection .text-wrapper {
+  color: var(--pure-white);
+}
+
+.search-bar.nav .text-wrapper {
+  color: var(--gray);
+  margin-top: -1px;
+}

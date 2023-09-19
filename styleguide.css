@@ -56,7 +56,7 @@
   --pure-white: rgba(255, 255, 255, 1);
   --secondary-color: rgba(34, 34, 34, 1);
   --surface1st-surface: rgba(34, 34, 34, 1);
-  --surface2nd-surface: rgba(34, 34, 34, 1);
+  --surface2nd-surface: rgb(44, 41, 41);
   --surface3rd-surface: rgba(34, 34, 34, 1);
   --web-body-bold-font-family: "AvenirNext-DemiBold", Helvetica;
   --web-body-bold-font-size: 16px;

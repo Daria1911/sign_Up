@@ -1,0 +1,1 @@
+export { MovieArrayWeb } from "./MovieArrayWeb";

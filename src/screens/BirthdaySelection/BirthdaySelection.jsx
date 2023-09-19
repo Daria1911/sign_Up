@@ -6,35 +6,13 @@ import * as PropTypes from "prop-types";
 import {ButtonWeb} from "../../components/ButtonWeb";
 import {ProgressBar} from "../../components/ProgressBar";
 import {TextfieldWeb} from "../../components/TextfieldWeb";
+import {Header} from "../../components/Header/Header";
 
 
-export const BirthdaySelection = () => {
+export const BirthdaySelection = ({stage}) => {
   return (
-    <div className="birthday-selection">
 
-      <header className="header">
-        <div className="final-proposed-logo">
-          <div className="group">
-            <img className="image" alt="Image" src="" />
-            <div className="div">REEL TALK</div>
-          </div>
-          <div className="text-wrapper-2">Browse</div>
-          <div className="text-wrapper-2">Community</div>
-        </div>
-        <div className="search-bar">
-          <StatusUnclicked className="search-icon" />
-          <div className="text-wrapper-3">Search</div>
-        </div>
-        <div className="frame-2">
-          <NavBtn
-            className="design-component-instance-node"
-            divClassName="nav-btn-instance"
-            property1="variant-2"
-            text="Login"
-          />
-          <NavBtn className="design-component-instance-node" property1="default" text="Signup" />
-        </div>
-      </header>
+    <div className="birthday-selection">
       <div className="frame-wrapper">
         <div className="frame-3">
           <ProgressBar className="progress-bar-instance" property1="three" />
@@ -52,11 +30,11 @@ export const BirthdaySelection = () => {
               </div>
               <TextfieldWeb className="design-component-instance-node" property1="default" />
             </div>
-            <img className="frame-7" alt="Frame" src="/img/frame-258.png" />
+            <img className="frame-7" alt="Frame" src="https://c.animaapp.com/7KGUQ1NE/img/frame-258.png" />
           </div>
           <div className="frame-8">
-            <ButtonWeb className="design-component-instance-node" text="Back" type="social" />
-            <ButtonWeb className="design-component-instance-node" text="Next" type="disabled" />
+            <ButtonWeb className="design-component-instance-node" text="Back" type="social" destination="second"/>
+            <ButtonWeb className="design-component-instance-node" text="Next" type="disabled" destination="fifth"/>
           </div>
         </div>
       </div>

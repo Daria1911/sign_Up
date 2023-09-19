@@ -69,3 +69,6 @@
   margin-top: -0.5px;
 }
 
+.button-web :hover {
+  background-color: var(--primary-color);
+}

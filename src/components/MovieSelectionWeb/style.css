@@ -1,0 +1,189 @@
+.movie-selection-web {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.movie-selection-web .overlap-group-wrapper {
+  border-radius: 4px;
+  height: 236px;
+  overflow: hidden;
+  position: relative;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-2 {
+  height: 236px;
+  position: relative;
+}
+
+.movie-selection-web .indiana-jones {
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 160px;
+}
+
+.movie-selection-web .p {
+  height: 236px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.movie-selection-web .p-2 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-3 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-4 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-5 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-6 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-7 {
+  height: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.movie-selection-web .p-8 {
+  height: 236px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 159px;
+}
+
+.movie-selection-web .check-circle {
+  height: 36px !important;
+  left: 115px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 36px !important;
+}
+
+.movie-selection-web .the-shawshank {
+  color: var(--high-emphasis);
+  font-family: var(--web-small-font-family);
+  font-size: var(--web-small-font-size);
+  font-style: var(--web-small-font-style);
+  font-weight: var(--web-small-font-weight);
+  letter-spacing: var(--web-small-letter-spacing);
+  line-height: var(--web-small-line-height);
+  position: relative;
+  text-align: center;
+  width: 154px;
+}
+
+.movie-selection-web .selected {
+  border: 3px solid;
+  border-color: var(--primary-color);
+}
+
+.movie-selection-web .unselected {
+  background-image: url(../../../static/img/indiana-jones-8.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .indiana-jones {
+  height: 234px;
+  top: 0;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .indiana-jones {
+  height: 220px;
+  top: 16px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-2 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-2 {
+  left: 0;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-3 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-3 {
+  left: 0;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-4 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-4 {
+  left: 0;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-5 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-5 {
+  left: 0;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-6 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-6 {
+  left: 0;
+  width: 160px;
+}
+
+.movie-selection-web .overlap-group-wrapper.selected .p-7 {
+  left: 1px;
+  width: 159px;
+}
+
+.movie-selection-web .overlap-group-wrapper.unselected .p-7 {
+  left: 0;
+  width: 160px;
+}

@@ -6,10 +6,19 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
+import { useNavigate } from 'react-router-dom'
 
-export const ButtonWeb = ({ type, className, text = "Next" }) => {
+export const ButtonWeb = ({ type, className, text = "Next" , destination}) => {
+
+    let navigate = useNavigate()
+
+    const getNext = () => {
+       navigate(`/${destination}`)
+    }
+
+
   return (
-    <button className={`button-web ${className}`}>
+    <button className={`button-web ${className}`} onClick={getNext}>
       <button className={`button ${type}`}>
         <div className="next">{text}</div>
       </button>

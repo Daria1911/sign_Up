@@ -8,8 +8,9 @@ import React from "react";
 import "./style.css";
 
 export const NavBtn = ({ property1, className, divClassName, text = "Get Reeltalk" }) => {
+
   return (
-    <div className={`nav-btn ${property1} ${className}`}>
+    <div className={`nav-btn ${property1} ${className}`} >
       <div className={`get-reeltalk ${divClassName}`}>{text}</div>
     </div>
   );
