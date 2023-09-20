@@ -52,6 +52,7 @@
 .button-web .button.disabled .next {
   color: var(--disabled);
   margin-top: -1.5px;
+  pointer-events: none;
 }
 
 .button-web .button.social .next {
@@ -69,6 +70,9 @@
   margin-top: -0.5px;
 }
 
-.button-web :hover {
-  background-color: var(--primary-color);
-}
+/*.button-web :hover {*/
+/*  background-color: var(--primary-color);*/
+/*}*/
+/*.button-web .button.disabled :hover {*/
+/*  background-color: var(--gray);*/
+/*}*/

@@ -8,6 +8,7 @@ import { BrowserRouter,
     Route,
     Link,} from "react-router-dom";
 import {Favorite} from "./screens/Favorite/Favorite";
+import {Genre} from "./screens/Genre/Genre";
 
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);
@@ -18,6 +19,7 @@ root.render(
             <Routes>
                 <Route path="/second" element={<Frame />} />
                 <Route path="/third" element={<BirthdaySelection />} />
+                <Route path="/fourth" element={<Genre />} />
                 <Route path="/fifth" element={<Favorite />} />
             </Routes>
         </BrowserRouter>

@@ -1,0 +1,105 @@
+.tile {
+  align-items: center;
+  border: 2px solid;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  height: 46px;
+  position: relative;
+  width: 178px;
+}
+
+.tile .get-started {
+  color: var(--secondary-color);
+  font-family: var(--web-body-bold-font-family);
+  font-size: var(--web-body-bold-font-size);
+  font-style: var(--web-body-bold-font-style);
+  font-weight: var(--web-body-bold-font-weight);
+  letter-spacing: var(--web-body-bold-letter-spacing);
+  line-height: var(--web-body-bold-line-height);
+  position: relative;
+}
+
+.tile .checkbox {
+  border-color: var(--secondary-color);
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.tile .icon {
+  height: 8px;
+  left: 3px;
+  position: absolute;
+  top: 5px;
+  width: 12px;
+}
+
+.tile.default {
+  background-color: var(--pure-white);
+  border-color: var(--gray);
+  padding: 10px;
+}
+
+.tile.status-2 {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 10px;
+}
+
+.tile.default .get-started {
+  margin-top: -2px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tile.status-2 .get-started {
+  /*flex: 1;*/
+  margin-top: -2px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tile.default .checkbox {
+  border: 1px solid;
+  border-radius: 4px;
+  margin-right: -1px;
+}
+
+.tile.status-2 .checkbox {
+  /*background-color: var(--pure-white);*/
+  border-radius: 4px;
+  margin-right: -1px;
+  border: 1px;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  position: relative;
+  width: 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: -1px;
+  border-color: var(--secondary-color);
+  border: 1px;
+
+}
+
+.checkbox.checked:checked {
+  background-color: white;
+  background-image: url("/static/img/icon-2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-right: -1px;
+  border-color: var(--secondary-color);
+  border: 1px;
+}
+

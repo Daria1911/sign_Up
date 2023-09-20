@@ -9,7 +9,7 @@
   width: 16px !important;
 }
 
-.search-bar .text-wrapper {
+.search-bar .search-text-wrapper {
   font-family: var(--web-body-font-family);
   font-size: var(--web-body-font-size);
   font-style: var(--web-body-font-style);
@@ -17,8 +17,12 @@
   letter-spacing: var(--web-body-letter-spacing);
   line-height: var(--web-body-line-height);
   position: relative;
-  text-align: center;
-  width: fit-content;
+  text-align: left;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: none;
+  color: white;
 }
 
 .search-bar .div-wrapper {
@@ -75,6 +79,7 @@
   line-height: var(--web-body-line-height);
   position: relative;
   width: fit-content;
+  text-align: left;
 }
 
 .search-bar .leandro-tadashi {

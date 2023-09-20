@@ -28,3 +28,35 @@
   position: relative;
   width: fit-content;
 }
+
+
+.textfield-web-month .default {
+  outline: none;
+  border: none;
+  background-color: var(--surface2nd-surface);
+  color: var(--disabled);
+  width: 100%;
+  text-align: center;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.textfield-web-month input:focus{
+  color: var(--high-emphasis);
+}
+
+/*.textfield-web-month input .default{*/
+/*  color: var(--high-emphasis);*/
+/*}*/
+
+.textfield-web-month .active{
+  outline: none;
+  border: none;
+  background-color: var(--surface2nd-surface);
+  color: var(--high-emphasis);
+  width: 100%;
+  text-align: center;
+  -webkit-appearance: none;
+  margin: 0;
+}
+

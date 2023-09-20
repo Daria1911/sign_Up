@@ -1,0 +1,74 @@
+.genre-selection {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.genre-selection .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.genre-selection .tile-instance {
+  background-color: var(--pure-white) !important;
+}
+
+.genre-selection .tile-2 {
+  font-family: "Avenir Next-DemiBold", Helvetica !important;
+  font-size: 16px !important;
+  font-style: unset !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08px !important;
+  line-height: normal !important;
+}
+
+.genre-selection .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.genre-selection .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.genre-selection .show-less {
+  color: var(--medium-emphasis);
+  font-family: var(--web-body-bold-font-family);
+  font-size: var(--web-body-bold-font-size);
+  font-style: var(--web-body-bold-font-style);
+  font-weight: var(--web-body-bold-font-weight);
+  letter-spacing: var(--web-body-bold-letter-spacing);
+  line-height: var(--web-body-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.genre-selection .icon-2 {
+  height: 5.5px;
+  position: relative;
+  width: 12px;
+}
+
+.genre-selection .less {
+  width: fit-content;
+}
+
+.genre-selection .more {
+  height: 25px;
+  width: 81px;
+}

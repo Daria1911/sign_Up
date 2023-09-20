@@ -1,0 +1,49 @@
+.frame {
+    background-color: var(--secondary-color);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    display: inline-flex;
+    position: relative;
+}
+
+.frame .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+}
+
+.frame .progress-bar-instance {
+    position: relative !important;
+}
+
+.frame .text-wrapper {
+    color: var(--pure-white);
+    font-family: var(--web-h2-font-family);
+    font-size: var(--web-h2-font-size);
+    font-style: var(--web-h2-font-style);
+    font-weight: var(--web-h2-font-weight);
+    letter-spacing: var(--web-h2-letter-spacing);
+    line-height: var(--web-h2-line-height);
+    position: relative;
+    text-align: center;
+    width: 504px;
+}
+
+.frame .design-component-instance-node {
+    flex: 0 0 auto !important;
+}
+
+.frame .div-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+}
+

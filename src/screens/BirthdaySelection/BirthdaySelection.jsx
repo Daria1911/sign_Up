@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavBtn } from "../../components/NavBtn";
 import "./style.css";
 import {StatusUnclicked} from "../../icons/StatusUnclicked";
@@ -10,6 +10,13 @@ import {Header} from "../../components/Header/Header";
 
 
 export const BirthdaySelection = ({stage}) => {
+
+  const [disabled, setDisabled] = useState("disabled")
+
+  const getActivestage = () => {
+
+
+  }
   return (
 
     <div className="birthday-selection">
@@ -28,13 +35,13 @@ export const BirthdaySelection = ({stage}) => {
                   and will not be shared with any third parties.
                 </p>
               </div>
-              <TextfieldWeb className="design-component-instance-node" property1="default" />
+              <TextfieldWeb className="design-component-instance-node" property1="default"  />
             </div>
             <img className="frame-7" alt="Frame" src="https://c.animaapp.com/7KGUQ1NE/img/frame-258.png" />
           </div>
           <div className="frame-8">
             <ButtonWeb className="design-component-instance-node" text="Back" type="social" destination="second"/>
-            <ButtonWeb className="design-component-instance-node" text="Next" type="disabled" destination="fifth"/>
+            <ButtonWeb className="design-component-instance-node" text="Next" type="disabled" destination="fourth"/>
           </div>
         </div>
       </div>

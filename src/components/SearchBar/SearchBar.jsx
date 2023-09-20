@@ -4,17 +4,23 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
+import React, {useState} from "react";
 import { StatusUnclicked } from "../../icons/StatusUnclicked";
 import "./style.css";
 
 export const SearchBar = ({ property1 }) => {
+  const [search, setSearch] = useState("")
+
+  const updateSearch = (e) => {
+    setSearch(e.target.value)
+  }
   return (
     <div className={`search-bar ${property1}`}>
       {["nav", "selection"].includes(property1) && (
         <>
           <StatusUnclicked className="search-icon" color={property1 === "selection" ? "white" : "#6D6D6D"} />
-          <div className="text-wrapper">Search</div>
+          <input className="search-text-wrapper" value={search} placeholder={"Search"} onChange={updateSearch}></input>
+
         </>
       )}
 

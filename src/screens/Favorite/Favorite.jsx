@@ -28,7 +28,7 @@ export const Favorite = () => {
                 </div>
                 <div className="div-6">
                     <div className="div-7">
-                        <ButtonWeb className="design-component-instance-node" text="Back" type="social" destination="third"/>
+                        <ButtonWeb className="design-component-instance-node" text="Back" type="social" destination="fourth"/>
                         <ButtonWeb className="design-component-instance-node" text="Skip" type="social" />
                     </div>
                 </div>
