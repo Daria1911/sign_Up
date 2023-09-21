@@ -1,4 +1,4 @@
-## Movie App Sign-Up Process
+nd## Movie App Sign-Up Process
 
 This project is a movie application sign-up process built with React, converted from Figma with AI. 
 It includes navigation and consists of four main stages: Name, Birthday, Favorite Genre, and Top 5 Movies/TV Shows.
@@ -30,4 +30,4 @@ npm run dev
 ```
 
 After a few seconds, your project should be accessible at the address
-[http://localhost:1234/](http://localhost:1234/second)
+[http://localhost:1234/second](http://localhost:1234/second)
