@@ -30,4 +30,4 @@ npm run dev
 ```
 
 After a few seconds, your project should be accessible at the address
-[http://localhost:1234/](http://localhost:1234/)
+[http://localhost:1234/](http://localhost:1234/second)
